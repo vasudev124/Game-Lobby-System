@@ -1,0 +1,174 @@
+# Game Lobby System - Git Ignore File
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# C++ Build Files
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Node.js and React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/
+.pnp.*
+
+# React Build
+build/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+log/
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage Directory
+coverage/
+*.lcov
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Database
+data/
+*.db
+*.sqlite
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# MongoDB
+data/mongodb/
+
+# SSL Certificates
+*.pem
+*.key
+*.crt
+nginx/ssl/
+
+# Package Lock Files (if using yarn, ignore package-lock.json)
+# package-lock.json
+
+# Temporary Files
+tmp/
+temp/
+.tmp/
+
+# Backup Files
+*.backup
+*.bak
+*.orig
+
+# Archive Files
+*.tar.gz
+*.zip
+*.rar
+
+# Local Configuration
+config.local.json
+local.conf
+
+# Test Files
+test-results/
+coverage/
+
+# Performance Monitoring
+.nyc_output/
+
+# Runtime Configuration
+runtime/
+
+# Profiling
+*.prof
+
+# Core Dumps
+core.*
+
+# Application Specific
+uploads/
+downloads/
+cache/
+
+# Deployment
+deploy/
+.deploy/
+
+# Local Development
+local/
+dev/
+
+# Documentation Build
+docs/_build/
+site/
+
+# Python (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+
+# Java (if using any Java tools)
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+
+# Miscellaneous
+.cache/
+.tmp/
+.sass-cache/
+connect.lock
+typings/
+.tsbuildinfo

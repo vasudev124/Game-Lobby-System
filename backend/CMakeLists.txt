@@ -18,8 +18,6 @@ pkg_check_modules(JSONCPP jsoncpp)
 
 # Include directories
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/external/websocketpp)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/external/asio/asio/include)
 
 # Source files
 set(SOURCES

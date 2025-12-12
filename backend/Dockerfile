@@ -18,6 +18,8 @@ RUN apt-get update && apt-get install -y \
     libmongocxx-dev \
     libbsoncxx-dev \
     libjsoncpp-dev \
+    libwebsocketpp-dev \
+    libasio-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
@@ -25,7 +27,6 @@ WORKDIR /app
 
 # Copy source files
 COPY src/ ./src/
-COPY external/ ./external/
 COPY CMakeLists.txt ./
 
 # Build the application
